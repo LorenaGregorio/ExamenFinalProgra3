@@ -9,11 +9,8 @@ namespace ExamenFinalProgra3.Interfases
 {
     public interface IOperaciones
     {
-        void BuscarMaterial(int id);
-        ClaseMateriales ObtenerProveedor(int id);
-        List<ClaseMateriales> ObtenerProveedor();
-        List<ClaseMateriales> ObtenerProveedor(string Proveedor);
+        string busqueda(string consulta);
 
-        
+
     }
 }
