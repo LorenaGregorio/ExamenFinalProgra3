@@ -112,6 +112,11 @@ namespace ExamenFinalProgra3
             MessageBox.Show(m.busqueda(" Agrego el Material: " + m.nombrematerial + "\n A Inventario"));
         }
 
+        private void txtnombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             Reporte reporte = new Reporte();
